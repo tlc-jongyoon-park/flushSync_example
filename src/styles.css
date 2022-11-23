@@ -1,0 +1,34 @@
+section {
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+ul {
+  padding: 0 1em;
+  background-color: #efefef;
+  list-style: none;
+  height: 200px;
+  overflow-y: auto;
+}
+
+ul > li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #aaa;
+}
+
+li:last-child {
+  border: none;
+}
+
+form {
+  display: flex;
+  gap: 0.5em;
+}
+
+form > input {
+  padding: 0.25em 1em;
+  flex: 1;
+  border: 1px solid #888;
+}
